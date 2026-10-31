@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+physical_ai_work/
+assets/
+*.log
+preview_[0-9].png
+preview_sheet.jpg

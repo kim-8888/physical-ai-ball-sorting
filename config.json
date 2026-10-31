@@ -1,0 +1,62 @@
+{
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "sets": 3,
+  "balls_per_set": 5,
+  "ball_radius": 0.42,
+  "seconds_per_ball": 4.8,
+  "duration_seconds": 72,
+  "frames": 2160,
+  "camera_position": [
+    3.8,
+    -7.2,
+    5.3
+  ],
+  "camera_target": [
+    0,
+    0.82,
+    0.44
+  ],
+  "fov_degrees": 38,
+  "arm_lengths": [
+    1.15,
+    1.65
+  ],
+  "orders": [
+    [
+      "red",
+      "blue",
+      "yellow",
+      "green",
+      "black"
+    ],
+    [
+      "green",
+      "red",
+      "black",
+      "blue",
+      "yellow"
+    ],
+    [
+      "blue",
+      "yellow",
+      "green",
+      "black",
+      "red"
+    ]
+  ],
+  "right": [
+    "red",
+    "blue"
+  ],
+  "left": [
+    "yellow",
+    "green",
+    "black"
+  ],
+  "font_weight": 600,
+  "renderer": "PyBullet TinyRenderer CPU",
+  "control": "kinematic animation; no trained classifier; no dynamic contact solver",
+  "configuration_note": "このJSONは仕様一覧です。変更する場合は render.py 内の対応する定数・座標も変更してください。"
+}

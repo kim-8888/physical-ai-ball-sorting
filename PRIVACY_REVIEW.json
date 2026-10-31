@@ -1,0 +1,75 @@
+{
+  "confirmation": "確認しました",
+  "scope": "提出専用フォルダに列挙されたファイル。実行時に取得する依存物・フォントは提出対象外。",
+  "text_scan": {
+    "files": [
+      "PhysicalAI_5色ボール_坂と正面アーム_3セット.ipynb",
+      "render.py",
+      "README.md",
+      "requirements.txt",
+      "setup_font.py",
+      "config.json",
+      ".gitignore",
+      "SUBMISSION_CHECK.md"
+    ],
+    "findings": [],
+    "checks": [
+      "メール形式",
+      "個人環境の絶対パス",
+      "非公開ファイル識別子",
+      "典型的な認証情報形式"
+    ]
+  },
+  "notebook": {
+    "schema_validated": true,
+    "code_cells_syntax_valid": true,
+    "submitted_outputs_empty": true,
+    "author_metadata_absent": true,
+    "smoke_executed": true,
+    "dependency_install_skipped_in_smoke": "既存の固定バージョン環境を使用。フォント取得・ハッシュ検証・ソース展開・6枚のプレビュー生成を実行。",
+    "full_render_not_repeated": true,
+    "preview_png_byte_identical_to_approved_preview": true,
+    "embedded_source_matches_render_py": true
+  },
+  "source": {
+    "approved_animation_logic_ast_unchanged": true,
+    "portability_changes": [
+      "フォントを相対パス化",
+      "最終ファイル名に統一",
+      "説明docstringと整形"
+    ]
+  },
+  "video": {
+    "frames": 2160,
+    "duration_seconds": 72,
+    "size": [
+      1280,
+      720
+    ],
+    "fps": 30,
+    "no_audio_or_subtitles_or_data_streams": true,
+    "metadata_tags_checked": {
+      "format": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "encoder": "Lavf61.1.100"
+      },
+      "stream": {
+        "language": "und",
+        "handler_name": "VideoHandler",
+        "vendor_id": "[0][0][0][0]",
+        "encoder": "Lavc61.3.100 libx264"
+      }
+    },
+    "sha256": "999e8d8b93b40fcfa10f3850c25bf6529a17059ed9fa4afb450211b43d3eb3d6",
+    "visual_coverage": "全15球×坂・接触・トレーの45フレーム抽出、五色×3セットの一覧、代表接触フレームを確認。全フレームのUI文言生成元を点検。全フレーム逐次目視とは区別。",
+    "on_screen_text_contains_personal_information": false,
+    "full_stream_decode_errors": 0
+  },
+  "preview_image": {
+    "exif_absent": true,
+    "comments_xmp_icc_absent": true
+  },
+  "limitations": "形式パターン検索だけで任意の未知の個人情報を数学的に排除するものではないため、本文・ソース・画面の目視内容確認も実施。"
+}
